@@ -56,3 +56,6 @@ end
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 gem 'line-bot-api'
+
+# .envファイルで環境変数を管理できるgem
+gem 'dotenv-rails'
