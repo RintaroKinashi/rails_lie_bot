@@ -3,6 +3,8 @@ class LineBotController < ApplicationController
 protect_from_forgery except:[:callback]
 
   def callback
+    # POSTリクエストのbody部分のみを参照
+    body = request.body.read
   end
 
   private
